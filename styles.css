@@ -100,7 +100,7 @@ nav a:hover {
     font-style: normal;
 }
 #hobbies  a {
-    color: #0116ff;
+    color: maroon;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -177,7 +177,7 @@ table {
     text-align: center;
 }
 table  td > a {
-    color: #0116ff;
+    color: maroon;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -190,7 +190,7 @@ table  td > a {
 #hobbies img{
     display: block;
     margin: 100px;
-    border: #0116ff;
+    border: maroon;
     padding: 60px;
     border-width: 30px;
 }
