@@ -7,14 +7,14 @@
 /* Set the font style for the document */
 body, h1, h2, p {
     font-family: Arial, sans-serif;
-    color: #000; /* Set text color to black */
+    color: #fff; /* Set text color to white */
 }
 
 /* Set the style for the header */
 h1 {
     text-align: center;
-    background-color: #fff; /* White background */
-    color: #000; /* Black text color */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
     padding: 20px;
     margin: 0;
 }
@@ -48,8 +48,8 @@ nav a:hover {
 #index, #education, #experience, #hobbies, #achieve, #introduction, #image {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #000; /* Black border */
-    background-color: #fff; /* White background */
+    border: 1px solid #fff; /* White border */
+    background-color: #000; /* Black background */
     display: flexbox;
 }
 
@@ -82,14 +82,14 @@ input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #000; /* Black border */
+    border: 1px solid #fff; /* White border */
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -115,23 +115,23 @@ table {
 }
 
 table td > a {
-    color: #000; /* Black text color */
+    color: #fff; /* White text color */
     font-weight: bold;
     text-decoration: underline;
 }
 
 #introduction img ~ p{
-    color: #000; /* Black text color */
+    color: #fff; /* White text color */
 }
 
 #hobbies h2 + p{
-    color: #000; /* Black text color */
+    color: #fff; /* White text color */
 }
 
 #hobbies img{
     display: block;
     margin: 100px;
-    border: black;
+    border: white;
     padding: 60px;
     border-width: 30px;
 }
@@ -141,7 +141,7 @@ table td > a {
     grid-template-rows: 50px 50px;
     grid-template-columns: 100%;
     row-gap: 100px;
-    color: #000; /* Black text color */
+    color: #fff; /* White text color */
 }
 
 @media screen and (min-width: 1000px) {
