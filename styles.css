@@ -10,6 +10,15 @@ body, h1, h2, p {
     color: #fff; /* Set text color to white */
 }
 
+.hero-image {
+    background-image: url("ammaarfinalbg.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+    height: 100vh; 
+    position: relative; /* Required for z-index to work */
+}
 /* Set the style for the header */
 h1 {
     text-align: center;
