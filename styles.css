@@ -153,6 +153,14 @@ table td > a {
     color: #fff; /* White text color */
 }
 
+body.aerospace {
+    color: black;
+}
+
+body.artificial-intelligence {
+    color: black;
+}
+
 @media screen and (min-width: 1000px) {
     img {
         max-width: 70vw;
